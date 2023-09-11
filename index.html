@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="nav.css">
+
+  <title>Document</title>
+</head>
+<body>
+
+<!-- navbar -->
+<div class="nav"></div>
+
+
+<!-- navbar end -->
+
+<!-- sectionmain -->
+<div class="divcol1">
+  <div class="partonesec">
+    <div class="part1">
+      <div class="textbox">
+        Hellochalakudy.com<br>
+        ചാലക്കുടിയുടെ<br>
+        സ്വന്തം<br>
+        Website...<br>
+        <hr class="sep-2" />
+      </div>
+      
+     </div>
+    <div class="part2">
+        <img src="icon/backimg.png">
+      </div>
+  </div>
+
+  <!-- carousel -->
+  <div class="wrapper">
+    <div class="carousel owl-carousel">
+       <div class="card card-1">
+          <div class="divbuton">
+            Job Portal<br>
+            <button id="btn1">Know More ></button>
+          </div>
+       </div>
+       <div class="card card-2">
+        <div class="divbuton">
+          Contact Book<br>
+          <button id="btn1">Know More ></button>
+        </div>
+       </div>
+       <div class="card card-3">
+        <div class="divbuton">
+          News Portal<br>
+          <button id="btn1">Know More ></button>
+        </div>
+       </div>
+       <div class="card card-4">
+        <div class="divbuton">
+         Offer Zone<br>
+          <button id="btn1">Know More ></button>
+        </div>
+       </div>
+       <div class="card card-5">
+        <div class="divbuton">
+          Rip Page<br>
+          <button id="btn1">Know More ></button>
+        </div>
+       </div>
+    </div>
+ </div>
+</div>
+ <!-- carousel -->
+<!-- phonebody -->
+
+<div class="phonebodymain">
+  
+  <div class="phoneframe">
+    <div class="phonescreen">
+      <div class="weapp">
+          <!-- weather app -->
+          <div class="divcard">
+            <!-- <div class="search">
+              <input type="text" placeholder="search" spellcheck="false">
+              <button id="wesearch">Search</button>
+            </div> -->
+            <H2 id="wecolor">Weather Updates</H2>
+            <img src="images/clouds.png" class="weather-icon">
+            <div class="weartherapp">
+              <h1 class="temp">22°c</h1>
+              <h2 class="city">Chalakudy</h2>
+              <div class="deatils">
+                <div class="col">
+                  <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div>
+                    <p class="wind">15 km/h</p>
+                    <p>Wind Speed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+       
+     </div>
+  </div>
+
+
+
+
+  <!-- fullend -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- phonebody -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+   $(".carousel").owlCarousel({
+           margin: 20,
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 2000,
+           autoplayHoverPause: true,
+           responsive: {
+             0:{
+               items:1,
+               nav: false
+             },
+             600:{
+               items:2,
+               nav: false
+             },
+             1000:{
+               items:3,
+               nav: false
+             }
+           }
+         });
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>

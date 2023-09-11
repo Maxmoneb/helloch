@@ -1,0 +1,288 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: 600;
+  background-color: white;
+}
+
+.divcol1{
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+.partonesec{
+  display: flex;
+  gap: 10px;
+}
+.part1{
+  width: 50%;
+  height: 400px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.part2{
+  width: 50%;
+  height: 400px;
+  background-color: transparent
+}
+
+.part2 > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.textbox{
+  font-size: 37px;
+  text-align:left ;
+  background-color: transparent;
+  width: 300px;
+  height: auto;
+  color: rgb(12, 4, 4);
+}
+
+@media only screen and (max-width: 665px) {
+  .textbox{
+    padding-left: 10px;
+    font-size: 27px;
+    
+  }
+  
+}
+@media only screen and (max-width: 330px) {
+  .textbox{
+    padding-left: 10px;
+    font-size: 25px;
+    
+  }
+  
+}
+@media only screen and (max-width: 280px) {
+  .textbox{
+    padding-left: 10px;
+    font-size: 20px;
+    
+  }
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .partonesec{
+    display: block;
+  }
+  .part1{
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .part2{
+    width: 100%;
+    height: 400px;
+    background-color: transparent
+  }
+  
+  
+}
+
+
+/* carsoul */
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  width: 100%;
+  margin: auto;
+  padding: 0 0px;
+}
+.divbuton{
+  color: black;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+}
+.carousel .card{
+  height: 250px;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.carousel .card-1{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card-2{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card-3{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card-4{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card-5{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #0072bc!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #0072bc!important;
+}
+#btn1{
+  border-radius: 10px;
+  height: 50px;
+  border: none;
+  background-color: #006A4E;
+  color: white;
+}
+/* carsoul */
+
+/* <!-- phonebody --> */
+.phonebodymain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: antiquewhite;
+}
+.phoneframe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-color: antiquewhite;
+}
+.phonescreen{
+  width: 80%;
+  height: auto;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+.weapp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+}
+.divcard{
+  background-color: white;
+  width: 90%;
+  background-color:linear-gradient(135deg,#00feba,#5b548a);
+  color: #fff;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+.search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+.search input{
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+#wesearch{
+  background: #ebfffc;
+  color: #555;
+  border: 0;
+  outline: 0;
+  height: 30px;
+  cursor: pointer;
+}
+.weartherapp h1{
+  background-color: white;
+  color: black;
+  font-size: 70px;
+  font-weight: 500;
+}
+.weartherapp h2{
+  color: black;
+  background-color: white;
+  font-size: 35px;
+  font-weight: 500;
+}
+.deatils{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.weather-icon{
+  background-color: white;
+}
+.weartherapp{
+  background-color: white;
+}
+.col{
+  background-color: white;
+  color: black;
+}
+#wecolor{
+  color: black;
+}
+
+
+
+
+
+
+
